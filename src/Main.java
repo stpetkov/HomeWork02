@@ -44,7 +44,7 @@ public class Main {
 		System.out.println("S = "+(Math.PI*radius*radius));
 		// 7 task
 		int numberR=sc.nextInt();
-		boolean division=(a%5==0 && a%7==0);
+		boolean division=(numberR%5==0 && numberR%7==0);
 		System.out.println(division);
 		// 8 task
 		int oddOReven=sc.nextInt();
